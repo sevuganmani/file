@@ -3,3 +3,8 @@ if system "rpm -qa | grep git"
 else
   puts 'rpm does not exist'
 end
+if system "rpm -qa | grep wget"
+  puts 'rpm exist'
+else
+  puts 'rpm does not exist'
+end
